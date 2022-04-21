@@ -17,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
     Button btn;
     Button button;
     TextView txt1;
-    public  int val,val1;
+    int val,val1;
     Random random = new Random();
 
     @Override
