@@ -89,7 +89,7 @@ public class MainActivity4 extends AppCompatActivity implements View.OnClickList
                 && !field[0][0].equals("")) {
             return true;
         }
-        if(field[0][2].equals(field[1][1])
+        else if(field[0][2].equals(field[1][1])
                 && field[0][2].equals(field[2][0])
                 && !field[0][2].equals("")) {
             return true;
