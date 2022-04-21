@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {openNewActivity1();}
         });
     }
+    //function to open new activity
     public void openNewActivity(){
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
