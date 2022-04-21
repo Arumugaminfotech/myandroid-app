@@ -17,8 +17,8 @@ public class MainActivity2 extends AppCompatActivity {
     Button btn;
     Button button;
     TextView txt1;
-    public  int val;
-    public int val1;
+    public  int val,val1;
+    Random random = new Random();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +27,6 @@ public class MainActivity2 extends AppCompatActivity {
         txt = findViewById(R.id.textView5);
         txt1 = findViewById(R.id.textView8);
 
-
-        Random random = new Random();
         val = random.nextInt(15-1)+1;
         txt.setText(Integer.toString(val*2));
 
@@ -50,8 +48,7 @@ public class MainActivity2 extends AppCompatActivity {
                 openNewActivity();
             }
         });
-        Random random1 = new Random();
-        val1 = random1.nextInt(8-1)+1;
+        val1 = random.nextInt(8-1)+1;
         txt1.setText(Integer.toString(val1));
 
 
