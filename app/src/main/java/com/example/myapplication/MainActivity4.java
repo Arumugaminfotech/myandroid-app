@@ -94,6 +94,7 @@ public class MainActivity4 extends AppCompatActivity implements View.OnClickList
                 && !field[0][2].equals("")) {
             return true;
         }
+        else
         return false;
     }
     private void player1Wins() {
